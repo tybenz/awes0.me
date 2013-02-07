@@ -11,3 +11,7 @@ http://awes0.me/K6g
 |
 |------>http://en.wikipedia.org/wiki/Ewok
 
+http://awes0.me/emj
+|
+|------>http://tybenz.com/post/bash-url-shortener/
+
