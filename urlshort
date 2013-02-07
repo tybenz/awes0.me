@@ -24,7 +24,7 @@ done
 
 echo "Creating file..."
 URL=$1
-if echo "$URL" | grep -q "http://"; then
+if echo "$URL" | grep "http://"; then
   URL=$1
 else
   URL="http://$1"
@@ -37,7 +37,9 @@ FULL_URL="http://awes0.me/$DIR_NAME"
 echo "$CONTENTS$N$N$n$FULL_URL$N|$N|------>$URL$N" > $FULL_PATH/list.txt
 
 mkdir $FULL_PATH/$DIR_NAME &> /dev/null
-echo "<script type=\"text/javascript\">window.location = '$URL'</script>" > $FULL_PATH/$DIR_NAME/index.html &> /dev/null
+echo "<script type=\"text/javascript\">window.location = '$URL'</script>"
+echo $FULL_PATH/$DIR_NAME/index.html
+echo "<script type=\"text/javascript\">window.location = '$URL'</script>" > $FULL_PATH/$DIR_NAME/index.html
 
 echo "Uploading to GitHub..."
 git add -A &> /dev/null
