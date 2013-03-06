@@ -39,3 +39,7 @@ http://awes0.me/kw
 |
 |------>http://tybenz.com/post/walkie/
 
+http://awes0.me/Sqz
+|
+|------>http://walkie.tybenz.com
+
