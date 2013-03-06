@@ -43,3 +43,7 @@ http://awes0.me/Sqz
 |
 |------>http://walkie.tybenz.com
 
+http://awes0.me/mKB
+|
+|------>http://https://github.com/github/hubot-scripts/pull/806
+
