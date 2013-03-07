@@ -59,3 +59,7 @@ http://awes0.me/WCI
 |
 |------>http://www.adiumxtras.com/index.php?a=xtras
 
+http://awes0.me/qWK
+|
+|------>http://adium.im/help/pgs/ServiceInformation-TwitterSupport.html
+
