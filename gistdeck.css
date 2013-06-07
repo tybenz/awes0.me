@@ -1,0 +1,337 @@
+
+/* hide gist interface */
+#header,
+#revisions,
+#comments,
+#delete_link,
+#footer,
+.files .file-box .meta,
+.fork-info,
+.root-pane,
+.uncommentable,
+.js-comment-form {
+  display:none !important;
+}
+
+.secondary,
+.files {
+  float: none !important;
+  width: auto !important;
+}
+
+.main {
+  width:auto !important;
+}
+
+.file-box, .file-box article {
+  background:none !important;
+  background: transparent !important;
+}
+
+/* hide and reset gist header except for author gravatar and name */
+.pagehead-actions,
+.entry-title > span,
+.gist-author strong,
+.gist-timestamp {
+  display: none !important;
+}
+
+.pagehead,
+.entry-title {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+/* hide github interface */
+.last-commit,
+.commit,  
+.breadcrumb,
+#readme .name,
+a.anchor span {
+  display:none !important;
+}
+
+#readme, .markdown-body {
+  background:none !important;
+  background: transparent !important;
+  border: 0 none !important;
+  padding: 0 !important;
+}
+
+/* reset github interface styles */
+.bubble,
+.bubble .file-box {
+  background: none !important;
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* basic style */
+
+body {
+  background-attachment: fixed;
+  background-color: #f9f9f9;
+  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+  font-size: 13px !important;
+  color:#111 !important;
+  text-shadow: hsla(246, 13%, 100%, 0.5) 0px 1px 0px;
+  padding-bottom:600px !important;
+}
+
+a {
+  color: #4E51A3 !important;
+}
+a:hover {
+  text-decoration:none;
+  color: #514ECA !important;
+}
+
+.file-box {
+  font-size:36px !important;
+  line-height:54px !important;
+  padding: 30px !important;
+  border:0 none !important;
+  width:1024px;
+  margin:0 auto;
+}
+
+/* owner/gravatar/description becomes title screen */
+.pagehead {
+  background:none !important;
+  background: transparent !important;
+  text-align: center !important;
+  padding: 30px !important;
+  margin-top:120px !important;
+}
+
+.gist-author {
+  font-weight:normal !important;
+  font-size: 0px !important; /* removes the trailing slash */
+  color: #111 !important;
+  text-shadow: hsla(246, 13%, 100%, 0.5) 0px 1px 0px;
+}
+
+.gist-author img {
+  height:36px !important;
+  width: 36px !important;
+  margin-bottom: 7px;
+  margin-right: 6px;
+}
+
+.gist-author .author a {
+  color: #111 !important;
+  font-size: 24px !important;
+  font-weight:normal !important;
+}
+
+.gist-description p {
+  font-size: 84px !important;
+  line-height:54px !important;
+  font-weight:normal !important;
+  text-align:center !important;
+  color:#222 !important;
+  font-family: "Ubuntu Title", "Ubuntu", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.05em;
+}
+
+/* slide text style */
+
+h1, h2, h3, h4, p {
+  color: #111 !important;
+  text-align:center !important;
+}
+h1, h2, h3, h4 {
+  border: 0 none !important;
+  text-align:center;
+  font-weight:normal !important;
+}
+
+/* slides */
+
+h1, h2 {
+  font-size:84px !important;
+  line-height:70px !important;
+  margin-bottom: 36px !important;
+  color:#222 !important;
+  font-family: "Ubuntu Title", "Ubuntu", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.05em;
+}
+h2 {
+  color:#444 !important;
+}
+h3 {
+  font-size:45px !important;
+  line-height:54px !important;
+  margin-bottom:18px;
+}
+p, li, h4 {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 36px !important;
+  line-height:54px !important;
+}
+li * {
+  text-align: left !important;
+}
+li, p {
+  margin-bottom:24px !important;
+}
+/* slides with images and text */
+
+h2 + p img {
+  float:right !important;
+  margin-left: 20px !important;
+}
+
+
+
+.file-box img {
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(255,255,255,0.2)));
+}
+/* code style */
+
+.file-box div.highlight {
+  background: none !important;
+  background: transparent !important;
+  font-family: "Ubuntu Mono", monospace;
+}
+div.highlight pre, pre, .markdown-body code {
+  font-family: "Ubuntu Mono", monospace;
+  border: 1px solid hsla(246, 13%, 45%, 0.4) !important;
+  background: hsla(246, 13%, 99%, 0.6) !important;
+  -webkit-border-radius: 6px !important;
+  -moz-border-radius: 6px !important;
+  border-radius: 6px !important;
+  text-align:left;
+}
+div.highlight pre, pre code, li code {
+  font-family: "Ubuntu Mono", monospace;
+  font-size:16px !important;
+  text-align: left;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('font/Ubuntu-R-webfont.eot');
+    src: url('font/Ubuntu-R-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Ubuntu-R-webfont.woff') format('woff'),
+         url('font/Ubuntu-R-webfont.ttf') format('truetype'),
+         url('font/Ubuntu-R-webfont.svg#UbuntuRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('font/Ubuntu-RI-webfont.eot');
+    src: url('font/Ubuntu-RI-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Ubuntu-RI-webfont.woff') format('woff'),
+         url('font/Ubuntu-RI-webfont.ttf') format('truetype'),
+         url('font/Ubuntu-RI-webfont.svg#UbuntuItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('font/Ubuntu-B-webfont.eot');
+    src: url('font/Ubuntu-B-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Ubuntu-B-webfont.woff') format('woff'),
+         url('font/Ubuntu-B-webfont.ttf') format('truetype'),
+         url('font/Ubuntu-B-webfont.svg#UbuntuBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('font/Ubuntu-BI-webfont.eot');
+    src: url('font/Ubuntu-BI-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Ubuntu-BI-webfont.woff') format('woff'),
+         url('font/Ubuntu-BI-webfont.ttf') format('truetype'),
+         url('font/Ubuntu-BI-webfont.svg#UbuntuBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('font/Ubuntu-L-webfont.eot');
+    src: url('font/Ubuntu-L-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Ubuntu-L-webfont.woff') format('woff'),
+         url('font/Ubuntu-L-webfont.ttf') format('truetype'),
+         url('font/Ubuntu-L-webfont.svg#UbuntuLight') format('svg');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('font/Ubuntu-LI-webfont.eot');
+    src: url('font/Ubuntu-LI-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Ubuntu-LI-webfont.woff') format('woff'),
+         url('font/Ubuntu-LI-webfont.ttf') format('truetype'),
+         url('font/Ubuntu-LI-webfont.svg#UbuntuLightItalic') format('svg');
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ubuntu Mono';
+    src: url('font/UbuntuMono-R-webfont.eot');
+    src: url('font/UbuntuMono-R-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/UbuntuMono-R-webfont.woff') format('woff'),
+         url('font/UbuntuMono-R-webfont.ttf') format('truetype'),
+         url('font/UbuntuMono-R-webfont.svg#UbuntuMonoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu Mono';
+    src: url('font/UbuntuMono-RI-webfont.eot');
+    src: url('font/UbuntuMono-RI-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/UbuntuMono-RI-webfont.woff') format('woff'),
+         url('font/UbuntuMono-RI-webfont.ttf') format('truetype'),
+         url('font/UbuntuMono-RI-webfont.svg#UbuntuMonoItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ubuntu Mono';
+    src: url('font/UbuntuMono-B-webfont.eot');
+    src: url('font/UbuntuMono-B-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/UbuntuMono-B-webfont.woff') format('woff'),
+         url('font/UbuntuMono-B-webfont.ttf') format('truetype'),
+         url('font/UbuntuMono-B-webfont.svg#UbuntuMonoBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu Mono';
+    src: url('font/UbuntuMono-BI-webfont.eot');
+    src: url('font/UbuntuMono-BI-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/UbuntuMono-BI-webfont.woff') format('woff'),
+         url('font/UbuntuMono-BI-webfont.ttf') format('truetype'),
+         url('font/UbuntuMono-BI-webfont.svg#UbuntuMonoBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ubuntu Title';
+    src: url('font/UbuntuTitling-Bold-webfont.eot');
+    src: url('font/UbuntuTitling-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/UbuntuTitling-Bold-webfont.woff') format('woff'),
+         url('font/UbuntuTitling-Bold-webfont.ttf') format('truetype'),
+         url('font/UbuntuTitling-Bold-webfont.svg#UbuntuTitlingBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
