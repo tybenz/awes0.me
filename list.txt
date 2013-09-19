@@ -135,3 +135,7 @@ http://awes0.me/Idmb
 |
 |------>https://gist.github.com/tybenz/5833949
 
+http://awes0.me/cxob
+|
+|------>http://tybenz.com/post/vimdeck-vim-as-a-presentation-tool/
+
