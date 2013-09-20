@@ -139,3 +139,7 @@ http://awes0.me/cxob
 |
 |------>http://tybenz.com/post/vimdeck-vim-as-a-presentation-tool/
 
+http://awes0.me/KQqb
+|
+|------>http://https://github.com/trending#pa-vimdeck
+
