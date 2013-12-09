@@ -163,3 +163,7 @@ http://awes0.me/iiCb
 |
 |------>http://noahfrederick.com/vim-color-scheme-hemisu/
 
+http://awes0.me/QBEb
+|
+|------>http://https://rawgithub.com/chriskempson/base16/master/scheme-previews/base16-eighties.html
+
