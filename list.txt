@@ -179,3 +179,7 @@ http://awes0.me/muLb
 |
 |------>https://github.com/anasnakawa/chrome-github-avatars
 
+http://awes0.me/UNNb
+|
+|------>http://www.gentics.com/jquery-eu-2014/page/2014/eu.html#speakers
+
